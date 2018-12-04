@@ -114,7 +114,13 @@ If the view properly sends data back to client, then the following modification 
 <input type="checkbox" name="items" value="3">
 ```
 
-* The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from checklist then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. The AJAX Response from server should return the optimal location (latitude, longitude) for each selected **item information**, **total cost of selected items**, and **total miles required to visit each location**. See the structure below.
+* The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from checklist then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. 
+
+> see [in class mapper exercise](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/examples/mapper-article.html) to review dom manipulation and mapping
+
+> see [in class NYT exercise](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/examples/nytimes_lookup_solution.html) to review more dom manipulation techniques
+
+* The AJAX Response from server should return the optimal location (latitude, longitude) for each selected **item information**, **total cost of selected items**, and **total miles required to visit each location**. Consult the structure below.
 
 #### The structure of the json response:
 
@@ -143,7 +149,7 @@ If the view properly sends data back to client, then the following modification 
             total distance traversing the path of locations.
 
     total_cost: The total cost of all item objects selected in form. 
-    """
+"""
 
 ```
 
