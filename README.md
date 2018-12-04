@@ -46,18 +46,19 @@ The relevant view to edit for this assignment is [ItemsResultsRestView](https://
 
 a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a **NEW** list of ```ItemLocation``` objects that are of minimal distance to origin. **Use geopy and Nominatum python package for computing distance.**
 
-    > Be sure to use 'class project' for the ```user-agent``` attribute for the Nominatum constructor.
+> Be sure to use 'class project' for the ```user-agent``` attribute for the Nominatum constructor.
 
 #### Helpful Hints:
-    - To get a list of ```ItemLocation``` associations for an Item object use the ```related_name``` attribute. If ```item_obj``` is a "Grape", here are its related locations
+
+- To get a list of ```ItemLocation``` associations for an Item object use the ```related_name``` attribute. If ```item_obj``` is a "Grape", here are its related locations
 
 ```python
 item_locations = item_obj.locations.all()
 ```
 
-    - Each ```ItemLocation``` object has a ```location`` attribute that in turn has a ```lat``` and ```lon``` attribute.
+- Each ```ItemLocation``` object has a ```location`` attribute that in turn has a ```lat``` and ```lon``` attribute.
     
-    - Grapes are located at six locations
+- Grapes are located at six locations
 
 ```python
 for item_loc in item_locations:
