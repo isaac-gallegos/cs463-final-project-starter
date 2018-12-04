@@ -1,7 +1,7 @@
 # cs463 Final Project Starter Code
 
 ## Overview
-For this final assignment you will modify an existing Django web application by implementing backend application logic and frontend display and manipulation. The existing web application is based on the [shopping list](URL) project we have been looking at for the last half of the semester. For the current extension, you will implement a page that shows selected items by the user that are within a minimal distance from Las Vegas NM (the origin). Items in the db are mapped to locations such that any given item can be located in 1 or more locations. The goal is to retrieve locations of items that are closest to the origin. In addition, these minimal locations are to be plotted (marked) in a map on the client browser. The following tasks will help you break down the necessary modifications to achieve the intended result.
+For this final assignment you will modify an existing Django web application by implementing backend application logic and frontend display and manipulation. The existing web application is based on the [shopping list](https://github.com/rmedinahu/cs463-django-sl-01) project we have been looking at for the last half of the semester. For the current extension, you will implement a page that shows selected items by the user that are within a minimal distance from Las Vegas NM (the origin). Items in the db are mapped to locations such that any given item can be located in 1 or more locations. The goal is to retrieve locations of items that are closest to the origin. In addition, these minimal locations are to be plotted (marked) in a map on the client browser. The following tasks will help you break down the necessary modifications to achieve the intended result.
 
 ## Submission
 
@@ -39,10 +39,10 @@ Be sure that your consistently adding, committing, and pushing your changes to y
     > python manage.py runserver
 
 ### A. Modify ```ItemView```
-Modify the ```get_context_data()``` method in ItemView to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations.
+Modify the ```get_context_data()``` method in [ItemView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L20) to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations.
 
 ### B. Modify Backend
-The relevant view to edit for this assignment is [ItemsResultsRestView](URL). Your task is to implement the application logic in order to: 
+The relevant view to edit for this assignment is [ItemsResultsRestView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L55). Your task is to implement the application logic in order to: 
 
 a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a new list of items that are of minimal distance to origin. 
 
@@ -104,13 +104,21 @@ If the view properly sends data back to client, then the following modification 
 
 ## Relevant JavaScript Reference
 
+### JavaScript Reference
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs
+
+- https://www.w3schools.com/jsref/
+
 ### Checkbox
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
 
 ### AJAX
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
-- In class example [NY Times third pary api]()
+- In class example [NY Times third pary api](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/examples/nytimes_lookup_solution.html)
+
+### Django
+- https://docs.djangoproject.com/en/2.1/
 
 ### Geopy
 - [geopy docs](https://geopy.readthedocs.io/en/stable/#)
@@ -120,6 +128,6 @@ If the view properly sends data back to client, then the following modification 
 ### Mapping
 - https://leafletjs.com/
 
-- In class example [Mapping and NYTimes lookup using Leaflet and NYT third party apis]()
+- In class example [Mapping and NYTimes lookup using Leaflet and NYT third party apis](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/examples/mapper-article.html)
 
 
