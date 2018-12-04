@@ -1,0 +1,143 @@
+<!-- mapper.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Address Lookup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+</head>
+<body class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>Basic Fetch Address Example</h1>
+
+        <form method="get">
+              <input type="text" id="queryaddr"/>
+              <button id="querybtn">search</button>
+        </form>
+        <h3>Results</h3>
+        <ul id="results_list"></ul>
+
+      </div>
+      <div class="col" id="result_display">
+          <div id="mainmap" style="height: 360px"></div>
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Related Articles</h4>
+              <ul id="results_articles"></ul>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var map = L.map('mainmap');
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+
+      var marker_layer = L.layerGroup().addTo(map);
+
+      var base_url = "https://nominatim.openstreetmap.org/search/";
+      var base_params = "?format=json&addressdetails=1&limit=5&polygon_svg=1";
+      var querybtn = document.querySelector('#querybtn');
+      var queryaddr = document.querySelector("#queryaddr");
+
+      querybtn.onclick = function(e) {
+          e.preventDefault(); // prevent browser from triggering form submit.
+          updateDisplay(queryaddr.value);
+      };
+
+      function markit_handler(event) {
+        var list_item = event.target;
+        var lat = list_item.getAttribute("data-lat");
+        var lon = list_item.getAttribute("data-lon");
+        var query = list_item.getAttribute("data-query");
+        marker_layer.clearLayers();
+        L.marker([lat, lon]).addTo(marker_layer);
+        map.setView([lat, lon], 5);
+        getarticles(query);
+      }
+
+      function add_list_item(data) {
+        var results_list = document.querySelector("#results_list");
+        var list_item = document.createElement("li");
+        list_item.textContent = data.display_name;
+        list_item.setAttribute("data-lat", data.lat);
+        list_item.setAttribute("data-lon", data.lon);
+        list_item.setAttribute("data-query", data.display_name);
+        list_item.addEventListener('click', markit_handler);
+        results_list.appendChild(list_item);
+      }
+
+      function updateDisplay(query) {
+          var url = encodeURI(base_url + query + base_params);
+          fetch(url)
+          .then( function(response) { 
+            return response.json(); //returns the response decoded into json to next function in chain.
+          })
+          .then( function(json) {
+            var results_list = document.querySelector("#results_list")
+            while (results_list.firstChild) {
+              results_list.removeChild(results_list.firstChild);
+            }
+            marker_layer.clearLayers();
+            map.setView([50.5, 30.5], 2);
+            for(let loc of json) {
+    
+              add_list_item(loc);
+              // L.marker([loc.lat, loc.lon]).addTo(marker_layer);
+            }             
+          });
+      };
+      
+      function getarticles(query) {
+        var baseURL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json';
+        var key = '4f3c267e125943d79b0a3e679f608a78';
+        var url = baseURL + "?api-key=" + key;
+        url += "&q=" + query;
+        var results_articles = document.querySelector("#results_articles");
+        
+        while (results_articles.firstChild) {
+          results_articles.removeChild(results_articles.firstChild);
+        }
+
+        fetch(url)
+        .then( function(response) { 
+            return response.json(); //returns the response decoded into json to next function in chain.
+        })
+        .then( function(json) { 
+
+          for (let d of json.response.docs) {
+            var item = document.createElement('li');
+            item.textContent = d.headline.print_headline;
+            results_articles.appendChild(item);
+          }
+
+        });
+      }
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

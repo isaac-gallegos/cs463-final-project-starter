@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content_body %}
+
+<div class="row">
+	
+	<!-- LEFT -->
+	<div class="col-md-3">
+		<h3>{{ object.name }}</h3>
+	</div>
+
+	<!-- RIGHT -->
+	<div class="col-md-9">
+		<p><img src="{{ object.image_url }}" width="320px"></p>
+		<p>${{ object.price }}</p>
+    	<p>{{ object.description }}</p>	
+
+    	<h5>Available at the following locations</h5>
+    	<ul class="list-unstyled">
+    		
+    	</ul>	
+	</div>
+
+</div>
+
+{% endblock content_body %}

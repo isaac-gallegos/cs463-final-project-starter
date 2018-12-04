@@ -1,0 +1,4683 @@
+[
+{
+    "model": "shopper_app.geoloc",
+    "pk": 1,
+    "fields": {
+        "postal_code": 87001,
+        "city": "Algodones",
+        "lat": 35.38,
+        "lon": -106.47
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 2,
+    "fields": {
+        "postal_code": 87002,
+        "city": "Belen",
+        "lat": 34.65,
+        "lon": -106.77
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 3,
+    "fields": {
+        "postal_code": 87004,
+        "city": "Bernalillo",
+        "lat": 35.31,
+        "lon": -106.55
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 4,
+    "fields": {
+        "postal_code": 87005,
+        "city": "Bluewater",
+        "lat": 35.27,
+        "lon": -107.98
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 5,
+    "fields": {
+        "postal_code": 87006,
+        "city": "Bosque",
+        "lat": 34.49,
+        "lon": -106.84
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 6,
+    "fields": {
+        "postal_code": 87007,
+        "city": "Casa Blanca",
+        "lat": 35.02,
+        "lon": -107.51
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 7,
+    "fields": {
+        "postal_code": 87008,
+        "city": "Cedar Crest",
+        "lat": 35.12,
+        "lon": -106.41
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 8,
+    "fields": {
+        "postal_code": 87009,
+        "city": "Cedarvale",
+        "lat": 34.37,
+        "lon": -105.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 9,
+    "fields": {
+        "postal_code": 87010,
+        "city": "Cerrillos",
+        "lat": 35.37,
+        "lon": -106.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 10,
+    "fields": {
+        "postal_code": 87011,
+        "city": "Claunch",
+        "lat": 34.14,
+        "lon": -105.99
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 11,
+    "fields": {
+        "postal_code": 87012,
+        "city": "Coyote",
+        "lat": 36.11,
+        "lon": -106.66
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 12,
+    "fields": {
+        "postal_code": 87013,
+        "city": "Cuba",
+        "lat": 36.02,
+        "lon": -106.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 13,
+    "fields": {
+        "postal_code": 87014,
+        "city": "Cubero",
+        "lat": 35.08,
+        "lon": -107.51
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 14,
+    "fields": {
+        "postal_code": 87015,
+        "city": "Edgewood",
+        "lat": 35.08,
+        "lon": -106.17
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 15,
+    "fields": {
+        "postal_code": 87016,
+        "city": "Estancia",
+        "lat": 34.76,
+        "lon": -106.06
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 16,
+    "fields": {
+        "postal_code": 87017,
+        "city": "Gallina",
+        "lat": 36.23,
+        "lon": -106.85
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 17,
+    "fields": {
+        "postal_code": 87018,
+        "city": "Counselor",
+        "lat": 36.17,
+        "lon": -107.56
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 18,
+    "fields": {
+        "postal_code": 87020,
+        "city": "Grants",
+        "lat": 35.15,
+        "lon": -107.83
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 19,
+    "fields": {
+        "postal_code": 87021,
+        "city": "Milan",
+        "lat": 35.18,
+        "lon": -107.89
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 20,
+    "fields": {
+        "postal_code": 87022,
+        "city": "Isleta",
+        "lat": 34.9,
+        "lon": -106.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 21,
+    "fields": {
+        "postal_code": 87023,
+        "city": "Jarales",
+        "lat": 34.61,
+        "lon": -106.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 22,
+    "fields": {
+        "postal_code": 87024,
+        "city": "Jemez Pueblo",
+        "lat": 35.61,
+        "lon": -106.72
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 23,
+    "fields": {
+        "postal_code": 87025,
+        "city": "Jemez Springs",
+        "lat": 35.77,
+        "lon": -106.68
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 24,
+    "fields": {
+        "postal_code": 87026,
+        "city": "Laguna",
+        "lat": 35.03,
+        "lon": -107.39
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 25,
+    "fields": {
+        "postal_code": 87027,
+        "city": "La Jara",
+        "lat": 36.08,
+        "lon": -106.97
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 26,
+    "fields": {
+        "postal_code": 87028,
+        "city": "La Joya",
+        "lat": 34.34,
+        "lon": -106.84
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 27,
+    "fields": {
+        "postal_code": 87029,
+        "city": "Lindrith",
+        "lat": 36.3,
+        "lon": -107.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 28,
+    "fields": {
+        "postal_code": 87031,
+        "city": "Los Lunas",
+        "lat": 34.81,
+        "lon": -106.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 29,
+    "fields": {
+        "postal_code": 87032,
+        "city": "Mcintosh",
+        "lat": 34.85,
+        "lon": -106.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 30,
+    "fields": {
+        "postal_code": 87034,
+        "city": "Pueblo Of Acoma",
+        "lat": 34.9,
+        "lon": -107.58
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 31,
+    "fields": {
+        "postal_code": 87035,
+        "city": "Moriarty",
+        "lat": 35.0,
+        "lon": -106.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 32,
+    "fields": {
+        "postal_code": 87036,
+        "city": "Mountainair",
+        "lat": 34.52,
+        "lon": -106.24
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 33,
+    "fields": {
+        "postal_code": 87037,
+        "city": "Nageezi",
+        "lat": 36.26,
+        "lon": -107.74
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 34,
+    "fields": {
+        "postal_code": 87038,
+        "city": "New Laguna",
+        "lat": 35.09,
+        "lon": -107.41
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 35,
+    "fields": {
+        "postal_code": 87040,
+        "city": "Paguate",
+        "lat": 35.1,
+        "lon": -107.38
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 36,
+    "fields": {
+        "postal_code": 87041,
+        "city": "Pena Blanca",
+        "lat": 35.57,
+        "lon": -106.33
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 37,
+    "fields": {
+        "postal_code": 87042,
+        "city": "Peralta",
+        "lat": 34.82,
+        "lon": -106.68
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 38,
+    "fields": {
+        "postal_code": 87043,
+        "city": "Placitas",
+        "lat": 35.32,
+        "lon": -106.46
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 39,
+    "fields": {
+        "postal_code": 87044,
+        "city": "Ponderosa",
+        "lat": 35.67,
+        "lon": -106.64
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 40,
+    "fields": {
+        "postal_code": 87045,
+        "city": "Prewitt",
+        "lat": 35.36,
+        "lon": -108.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 41,
+    "fields": {
+        "postal_code": 87046,
+        "city": "Regina",
+        "lat": 36.18,
+        "lon": -106.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 42,
+    "fields": {
+        "postal_code": 87047,
+        "city": "Sandia Park",
+        "lat": 35.25,
+        "lon": -106.29
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 43,
+    "fields": {
+        "postal_code": 87048,
+        "city": "Corrales",
+        "lat": 35.23,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 44,
+    "fields": {
+        "postal_code": 87049,
+        "city": "San Fidel",
+        "lat": 35.08,
+        "lon": -107.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 45,
+    "fields": {
+        "postal_code": 87051,
+        "city": "San Rafael",
+        "lat": 35.11,
+        "lon": -107.88
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 46,
+    "fields": {
+        "postal_code": 87052,
+        "city": "Santo Domingo Pueblo",
+        "lat": 35.51,
+        "lon": -106.36
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 47,
+    "fields": {
+        "postal_code": 87053,
+        "city": "San Ysidro",
+        "lat": 35.55,
+        "lon": -106.77
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 48,
+    "fields": {
+        "postal_code": 87056,
+        "city": "Stanley",
+        "lat": 35.14,
+        "lon": -105.97
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 49,
+    "fields": {
+        "postal_code": 87059,
+        "city": "Tijeras",
+        "lat": 35.08,
+        "lon": -106.37
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 50,
+    "fields": {
+        "postal_code": 87060,
+        "city": "Tome",
+        "lat": 34.74,
+        "lon": -106.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 51,
+    "fields": {
+        "postal_code": 87061,
+        "city": "Torreon",
+        "lat": 34.72,
+        "lon": -106.29
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 52,
+    "fields": {
+        "postal_code": 87062,
+        "city": "Veguita",
+        "lat": 34.51,
+        "lon": -106.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 53,
+    "fields": {
+        "postal_code": 87063,
+        "city": "Willard",
+        "lat": 34.59,
+        "lon": -106.03
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 54,
+    "fields": {
+        "postal_code": 87064,
+        "city": "Youngsville",
+        "lat": 36.18,
+        "lon": -106.55
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 55,
+    "fields": {
+        "postal_code": 87068,
+        "city": "Bosque Farms",
+        "lat": 34.85,
+        "lon": -106.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 56,
+    "fields": {
+        "postal_code": 87070,
+        "city": "Clines Corners",
+        "lat": 35.02,
+        "lon": -105.78
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 57,
+    "fields": {
+        "postal_code": 87072,
+        "city": "Cochiti Pueblo",
+        "lat": 35.61,
+        "lon": -106.4
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 58,
+    "fields": {
+        "postal_code": 87083,
+        "city": "Cochiti Lake",
+        "lat": 35.65,
+        "lon": -106.34
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 59,
+    "fields": {
+        "postal_code": 87101,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 60,
+    "fields": {
+        "postal_code": 87102,
+        "city": "Albuquerque",
+        "lat": 35.08,
+        "lon": -106.65
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 61,
+    "fields": {
+        "postal_code": 87103,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 62,
+    "fields": {
+        "postal_code": 87104,
+        "city": "Albuquerque",
+        "lat": 35.1,
+        "lon": -106.68
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 63,
+    "fields": {
+        "postal_code": 87105,
+        "city": "Albuquerque",
+        "lat": 34.98,
+        "lon": -106.61
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 64,
+    "fields": {
+        "postal_code": 87106,
+        "city": "Albuquerque",
+        "lat": 35.06,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 65,
+    "fields": {
+        "postal_code": 87107,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 66,
+    "fields": {
+        "postal_code": 87108,
+        "city": "Albuquerque",
+        "lat": 35.07,
+        "lon": -106.58
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 67,
+    "fields": {
+        "postal_code": 87109,
+        "city": "Albuquerque",
+        "lat": 35.15,
+        "lon": -106.58
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 68,
+    "fields": {
+        "postal_code": 87110,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.58
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 69,
+    "fields": {
+        "postal_code": 87111,
+        "city": "Albuquerque",
+        "lat": 35.14,
+        "lon": -106.49
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 70,
+    "fields": {
+        "postal_code": 87112,
+        "city": "Albuquerque",
+        "lat": 35.1,
+        "lon": -106.52
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 71,
+    "fields": {
+        "postal_code": 87113,
+        "city": "Albuquerque",
+        "lat": 35.18,
+        "lon": -106.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 72,
+    "fields": {
+        "postal_code": 87114,
+        "city": "Albuquerque",
+        "lat": 35.19,
+        "lon": -106.69
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 73,
+    "fields": {
+        "postal_code": 87115,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 74,
+    "fields": {
+        "postal_code": 87116,
+        "city": "Albuquerque",
+        "lat": 35.06,
+        "lon": -106.54
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 75,
+    "fields": {
+        "postal_code": 87117,
+        "city": "Kirtland Afb",
+        "lat": 35.05,
+        "lon": -106.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 76,
+    "fields": {
+        "postal_code": 87119,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 77,
+    "fields": {
+        "postal_code": 87120,
+        "city": "Albuquerque",
+        "lat": 35.13,
+        "lon": -106.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 78,
+    "fields": {
+        "postal_code": 87121,
+        "city": "Albuquerque",
+        "lat": 35.09,
+        "lon": -106.9
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 79,
+    "fields": {
+        "postal_code": 87122,
+        "city": "Albuquerque",
+        "lat": 35.19,
+        "lon": -106.5
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 80,
+    "fields": {
+        "postal_code": 87123,
+        "city": "Albuquerque",
+        "lat": 35.07,
+        "lon": -106.47
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 81,
+    "fields": {
+        "postal_code": 87124,
+        "city": "Rio Rancho",
+        "lat": 35.27,
+        "lon": -106.66
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 82,
+    "fields": {
+        "postal_code": 87125,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 83,
+    "fields": {
+        "postal_code": 87131,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 84,
+    "fields": {
+        "postal_code": 87144,
+        "city": "Rio Rancho",
+        "lat": 35.32,
+        "lon": -106.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 85,
+    "fields": {
+        "postal_code": 87151,
+        "city": "Albuquerque",
+        "lat": 35.08,
+        "lon": -106.65
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 86,
+    "fields": {
+        "postal_code": 87153,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 87,
+    "fields": {
+        "postal_code": 87154,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 88,
+    "fields": {
+        "postal_code": 87158,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 89,
+    "fields": {
+        "postal_code": 87165,
+        "city": "Albuquerque",
+        "lat": 35.08,
+        "lon": -106.64
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 90,
+    "fields": {
+        "postal_code": 87174,
+        "city": "Rio Rancho",
+        "lat": 35.27,
+        "lon": -106.66
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 91,
+    "fields": {
+        "postal_code": 87176,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 92,
+    "fields": {
+        "postal_code": 87181,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 93,
+    "fields": {
+        "postal_code": 87184,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 94,
+    "fields": {
+        "postal_code": 87185,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 95,
+    "fields": {
+        "postal_code": 87187,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 96,
+    "fields": {
+        "postal_code": 87190,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 97,
+    "fields": {
+        "postal_code": 87191,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 98,
+    "fields": {
+        "postal_code": 87192,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 99,
+    "fields": {
+        "postal_code": 87193,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 100,
+    "fields": {
+        "postal_code": 87194,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 101,
+    "fields": {
+        "postal_code": 87195,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 102,
+    "fields": {
+        "postal_code": 87196,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 103,
+    "fields": {
+        "postal_code": 87197,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 104,
+    "fields": {
+        "postal_code": 87198,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 105,
+    "fields": {
+        "postal_code": 87199,
+        "city": "Albuquerque",
+        "lat": 35.11,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 106,
+    "fields": {
+        "postal_code": 87301,
+        "city": "Gallup",
+        "lat": 35.52,
+        "lon": -108.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 107,
+    "fields": {
+        "postal_code": 87302,
+        "city": "Gallup",
+        "lat": 35.52,
+        "lon": -108.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 108,
+    "fields": {
+        "postal_code": 87305,
+        "city": "Gallup",
+        "lat": 35.38,
+        "lon": -108.8
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 109,
+    "fields": {
+        "postal_code": 87310,
+        "city": "Brimhall",
+        "lat": 35.8,
+        "lon": -108.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 110,
+    "fields": {
+        "postal_code": 87311,
+        "city": "Church Rock",
+        "lat": 35.53,
+        "lon": -108.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 111,
+    "fields": {
+        "postal_code": 87312,
+        "city": "Continental Divide",
+        "lat": 35.42,
+        "lon": -108.32
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 112,
+    "fields": {
+        "postal_code": 87313,
+        "city": "Crownpoint",
+        "lat": 35.68,
+        "lon": -108.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 113,
+    "fields": {
+        "postal_code": 87315,
+        "city": "Fence Lake",
+        "lat": 34.65,
+        "lon": -108.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 114,
+    "fields": {
+        "postal_code": 87316,
+        "city": "Fort Wingate",
+        "lat": 35.46,
+        "lon": -108.54
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 115,
+    "fields": {
+        "postal_code": 87317,
+        "city": "Gamerco",
+        "lat": 35.57,
+        "lon": -108.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 116,
+    "fields": {
+        "postal_code": 87319,
+        "city": "Mentmore",
+        "lat": 35.47,
+        "lon": -108.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 117,
+    "fields": {
+        "postal_code": 87320,
+        "city": "Mexican Springs",
+        "lat": 35.78,
+        "lon": -108.8
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 118,
+    "fields": {
+        "postal_code": 87321,
+        "city": "Ramah",
+        "lat": 35.13,
+        "lon": -108.49
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 119,
+    "fields": {
+        "postal_code": 87322,
+        "city": "Rehoboth",
+        "lat": 35.53,
+        "lon": -108.65
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 120,
+    "fields": {
+        "postal_code": 87323,
+        "city": "Thoreau",
+        "lat": 35.4,
+        "lon": -108.22
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 121,
+    "fields": {
+        "postal_code": 87325,
+        "city": "Tohatchi",
+        "lat": 35.85,
+        "lon": -108.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 122,
+    "fields": {
+        "postal_code": 87326,
+        "city": "Vanderwagen",
+        "lat": 35.26,
+        "lon": -108.8
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 123,
+    "fields": {
+        "postal_code": 87327,
+        "city": "Zuni",
+        "lat": 35.08,
+        "lon": -108.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 124,
+    "fields": {
+        "postal_code": 87328,
+        "city": "Navajo",
+        "lat": 35.89,
+        "lon": -109.03
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 125,
+    "fields": {
+        "postal_code": 87347,
+        "city": "Jamestown",
+        "lat": 35.43,
+        "lon": -108.45
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 126,
+    "fields": {
+        "postal_code": 87357,
+        "city": "Pinehill",
+        "lat": 34.91,
+        "lon": -108.31
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 127,
+    "fields": {
+        "postal_code": 87364,
+        "city": "Sheep Springs",
+        "lat": 36.14,
+        "lon": -108.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 128,
+    "fields": {
+        "postal_code": 87365,
+        "city": "Smith Lake",
+        "lat": 35.77,
+        "lon": -107.98
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 129,
+    "fields": {
+        "postal_code": 87375,
+        "city": "Yatahey",
+        "lat": 35.61,
+        "lon": -108.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 130,
+    "fields": {
+        "postal_code": 87401,
+        "city": "Farmington",
+        "lat": 36.75,
+        "lon": -108.18
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 131,
+    "fields": {
+        "postal_code": 87402,
+        "city": "Farmington",
+        "lat": 36.78,
+        "lon": -108.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 132,
+    "fields": {
+        "postal_code": 87410,
+        "city": "Aztec",
+        "lat": 36.82,
+        "lon": -108.0
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 133,
+    "fields": {
+        "postal_code": 87412,
+        "city": "Blanco",
+        "lat": 36.7,
+        "lon": -107.48
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 134,
+    "fields": {
+        "postal_code": 87413,
+        "city": "Bloomfield",
+        "lat": 36.71,
+        "lon": -107.97
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 135,
+    "fields": {
+        "postal_code": 87415,
+        "city": "Flora Vista",
+        "lat": 36.8,
+        "lon": -108.08
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 136,
+    "fields": {
+        "postal_code": 87416,
+        "city": "Fruitland",
+        "lat": 36.73,
+        "lon": -108.39
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 137,
+    "fields": {
+        "postal_code": 87417,
+        "city": "Kirtland",
+        "lat": 36.73,
+        "lon": -108.34
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 138,
+    "fields": {
+        "postal_code": 87418,
+        "city": "La Plata",
+        "lat": 36.92,
+        "lon": -108.19
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 139,
+    "fields": {
+        "postal_code": 87419,
+        "city": "Navajo Dam",
+        "lat": 36.8,
+        "lon": -107.61
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 140,
+    "fields": {
+        "postal_code": 87420,
+        "city": "Shiprock",
+        "lat": 36.79,
+        "lon": -108.69
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 141,
+    "fields": {
+        "postal_code": 87421,
+        "city": "Waterflow",
+        "lat": 36.77,
+        "lon": -108.51
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 142,
+    "fields": {
+        "postal_code": 87455,
+        "city": "Newcomb",
+        "lat": 36.28,
+        "lon": -108.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 143,
+    "fields": {
+        "postal_code": 87461,
+        "city": "Sanostee",
+        "lat": 36.43,
+        "lon": -108.87
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 144,
+    "fields": {
+        "postal_code": 87499,
+        "city": "Farmington",
+        "lat": 36.34,
+        "lon": -108.22
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 145,
+    "fields": {
+        "postal_code": 87501,
+        "city": "Santa Fe",
+        "lat": 35.74,
+        "lon": -105.86
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 146,
+    "fields": {
+        "postal_code": 87502,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 147,
+    "fields": {
+        "postal_code": 87503,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 148,
+    "fields": {
+        "postal_code": 87504,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 149,
+    "fields": {
+        "postal_code": 87505,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 150,
+    "fields": {
+        "postal_code": 87506,
+        "city": "Santa Fe",
+        "lat": 35.81,
+        "lon": -105.98
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 151,
+    "fields": {
+        "postal_code": 87507,
+        "city": "Santa Fe",
+        "lat": 35.6,
+        "lon": -106.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 152,
+    "fields": {
+        "postal_code": 87508,
+        "city": "Santa Fe",
+        "lat": 35.53,
+        "lon": -105.97
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 153,
+    "fields": {
+        "postal_code": 87509,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 154,
+    "fields": {
+        "postal_code": 87510,
+        "city": "Abiquiu",
+        "lat": 36.2,
+        "lon": -106.31
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 155,
+    "fields": {
+        "postal_code": 87511,
+        "city": "Alcalde",
+        "lat": 36.11,
+        "lon": -105.93
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 156,
+    "fields": {
+        "postal_code": 87512,
+        "city": "Amalia",
+        "lat": 36.94,
+        "lon": -105.45
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 157,
+    "fields": {
+        "postal_code": 87513,
+        "city": "Arroyo Hondo",
+        "lat": 36.58,
+        "lon": -105.69
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 158,
+    "fields": {
+        "postal_code": 87514,
+        "city": "Arroyo Seco",
+        "lat": 36.54,
+        "lon": -105.53
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 159,
+    "fields": {
+        "postal_code": 87515,
+        "city": "Canjilon",
+        "lat": 36.47,
+        "lon": -106.43
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 160,
+    "fields": {
+        "postal_code": 87516,
+        "city": "Canones",
+        "lat": 36.18,
+        "lon": -106.43
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 161,
+    "fields": {
+        "postal_code": 87517,
+        "city": "Carson",
+        "lat": 36.39,
+        "lon": -105.79
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 162,
+    "fields": {
+        "postal_code": 87518,
+        "city": "Cebolla",
+        "lat": 36.53,
+        "lon": -106.48
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 163,
+    "fields": {
+        "postal_code": 87519,
+        "city": "Cerro",
+        "lat": 36.75,
+        "lon": -105.61
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 164,
+    "fields": {
+        "postal_code": 87520,
+        "city": "Chama",
+        "lat": 36.89,
+        "lon": -106.58
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 165,
+    "fields": {
+        "postal_code": 87521,
+        "city": "Chamisal",
+        "lat": 36.17,
+        "lon": -105.74
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 166,
+    "fields": {
+        "postal_code": 87522,
+        "city": "Chimayo",
+        "lat": 35.99,
+        "lon": -105.92
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 167,
+    "fields": {
+        "postal_code": 87523,
+        "city": "Cordova",
+        "lat": 36.01,
+        "lon": -105.84
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 168,
+    "fields": {
+        "postal_code": 87524,
+        "city": "Costilla",
+        "lat": 36.97,
+        "lon": -105.53
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 169,
+    "fields": {
+        "postal_code": 87525,
+        "city": "Taos Ski Valley",
+        "lat": 36.6,
+        "lon": -105.45
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 170,
+    "fields": {
+        "postal_code": 87527,
+        "city": "Dixon",
+        "lat": 36.19,
+        "lon": -105.88
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 171,
+    "fields": {
+        "postal_code": 87528,
+        "city": "Dulce",
+        "lat": 36.93,
+        "lon": -106.99
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 172,
+    "fields": {
+        "postal_code": 87529,
+        "city": "El Prado",
+        "lat": 36.47,
+        "lon": -105.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 173,
+    "fields": {
+        "postal_code": 87530,
+        "city": "El Rito",
+        "lat": 36.34,
+        "lon": -106.18
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 174,
+    "fields": {
+        "postal_code": 87531,
+        "city": "Embudo",
+        "lat": 36.2,
+        "lon": -105.96
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 175,
+    "fields": {
+        "postal_code": 87532,
+        "city": "Espanola",
+        "lat": 36.0,
+        "lon": -106.06
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 176,
+    "fields": {
+        "postal_code": 87533,
+        "city": "Espanola",
+        "lat": 36.02,
+        "lon": -106.07
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 177,
+    "fields": {
+        "postal_code": 87535,
+        "city": "Glorieta",
+        "lat": 35.58,
+        "lon": -105.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 178,
+    "fields": {
+        "postal_code": 87537,
+        "city": "Hernandez",
+        "lat": 36.06,
+        "lon": -106.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 179,
+    "fields": {
+        "postal_code": 87538,
+        "city": "Ilfeld",
+        "lat": 35.49,
+        "lon": -105.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 180,
+    "fields": {
+        "postal_code": 87539,
+        "city": "La Madera",
+        "lat": 36.38,
+        "lon": -106.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 181,
+    "fields": {
+        "postal_code": 87540,
+        "city": "Lamy",
+        "lat": 35.48,
+        "lon": -105.87
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 182,
+    "fields": {
+        "postal_code": 87543,
+        "city": "Llano",
+        "lat": 36.14,
+        "lon": -105.68
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 183,
+    "fields": {
+        "postal_code": 87544,
+        "city": "Los Alamos",
+        "lat": 35.89,
+        "lon": -106.28
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 184,
+    "fields": {
+        "postal_code": 87545,
+        "city": "Los Alamos",
+        "lat": 35.89,
+        "lon": -106.28
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 185,
+    "fields": {
+        "postal_code": 87547,
+        "city": "White Rock",
+        "lat": 35.82,
+        "lon": -106.2
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 186,
+    "fields": {
+        "postal_code": 87548,
+        "city": "Medanales",
+        "lat": 36.17,
+        "lon": -106.18
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 187,
+    "fields": {
+        "postal_code": 87549,
+        "city": "Ojo Caliente",
+        "lat": 36.3,
+        "lon": -106.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 188,
+    "fields": {
+        "postal_code": 87551,
+        "city": "Los Ojos",
+        "lat": 36.69,
+        "lon": -106.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 189,
+    "fields": {
+        "postal_code": 87552,
+        "city": "Pecos",
+        "lat": 35.57,
+        "lon": -105.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 190,
+    "fields": {
+        "postal_code": 87553,
+        "city": "Penasco",
+        "lat": 36.17,
+        "lon": -105.69
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 191,
+    "fields": {
+        "postal_code": 87554,
+        "city": "Petaca",
+        "lat": 36.5,
+        "lon": -106.01
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 192,
+    "fields": {
+        "postal_code": 87556,
+        "city": "Questa",
+        "lat": 36.71,
+        "lon": -105.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 193,
+    "fields": {
+        "postal_code": 87557,
+        "city": "Ranchos De Taos",
+        "lat": 36.36,
+        "lon": -105.6
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 194,
+    "fields": {
+        "postal_code": 87558,
+        "city": "Red River",
+        "lat": 36.7,
+        "lon": -105.4
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 195,
+    "fields": {
+        "postal_code": 87560,
+        "city": "Ribera",
+        "lat": 35.37,
+        "lon": -105.44
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 196,
+    "fields": {
+        "postal_code": 87562,
+        "city": "Rowe",
+        "lat": 35.49,
+        "lon": -105.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 197,
+    "fields": {
+        "postal_code": 87564,
+        "city": "San Cristobal",
+        "lat": 36.59,
+        "lon": -105.63
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 198,
+    "fields": {
+        "postal_code": 87565,
+        "city": "San Jose",
+        "lat": 35.41,
+        "lon": -105.49
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 199,
+    "fields": {
+        "postal_code": 87566,
+        "city": "Ohkay Owingeh",
+        "lat": 36.05,
+        "lon": -106.07
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 200,
+    "fields": {
+        "postal_code": 87567,
+        "city": "Santa Cruz",
+        "lat": 35.99,
+        "lon": -106.02
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 201,
+    "fields": {
+        "postal_code": 87569,
+        "city": "Serafina",
+        "lat": 35.35,
+        "lon": -105.3
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 202,
+    "fields": {
+        "postal_code": 87571,
+        "city": "Taos",
+        "lat": 36.38,
+        "lon": -105.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 203,
+    "fields": {
+        "postal_code": 87573,
+        "city": "Tererro",
+        "lat": 35.74,
+        "lon": -105.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 204,
+    "fields": {
+        "postal_code": 87574,
+        "city": "Tesuque",
+        "lat": 35.82,
+        "lon": -105.9
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 205,
+    "fields": {
+        "postal_code": 87575,
+        "city": "Tierra Amarilla",
+        "lat": 36.7,
+        "lon": -106.54
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 206,
+    "fields": {
+        "postal_code": 87576,
+        "city": "Trampas",
+        "lat": 36.15,
+        "lon": -105.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 207,
+    "fields": {
+        "postal_code": 87577,
+        "city": "Tres Piedras",
+        "lat": 36.64,
+        "lon": -105.96
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 208,
+    "fields": {
+        "postal_code": 87578,
+        "city": "Truchas",
+        "lat": 36.04,
+        "lon": -105.81
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 209,
+    "fields": {
+        "postal_code": 87579,
+        "city": "Vadito",
+        "lat": 36.19,
+        "lon": -105.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 210,
+    "fields": {
+        "postal_code": 87580,
+        "city": "Valdez",
+        "lat": 36.57,
+        "lon": -105.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 211,
+    "fields": {
+        "postal_code": 87581,
+        "city": "Vallecitos",
+        "lat": 36.49,
+        "lon": -106.12
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 212,
+    "fields": {
+        "postal_code": 87582,
+        "city": "Velarde",
+        "lat": 36.16,
+        "lon": -106.02
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 213,
+    "fields": {
+        "postal_code": 87583,
+        "city": "Villanueva",
+        "lat": 35.26,
+        "lon": -105.36
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 214,
+    "fields": {
+        "postal_code": 87592,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 215,
+    "fields": {
+        "postal_code": 87594,
+        "city": "Santa Fe",
+        "lat": 35.67,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 216,
+    "fields": {
+        "postal_code": 87654,
+        "city": "Spaceport City",
+        "lat": 32.99,
+        "lon": -106.97
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 217,
+    "fields": {
+        "postal_code": 87701,
+        "city": "Las Vegas",
+        "lat": 35.59,
+        "lon": -105.22
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 218,
+    "fields": {
+        "postal_code": 87710,
+        "city": "Angel Fire",
+        "lat": 36.39,
+        "lon": -105.27
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 219,
+    "fields": {
+        "postal_code": 87711,
+        "city": "Anton Chico",
+        "lat": 35.2,
+        "lon": -105.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 220,
+    "fields": {
+        "postal_code": 87712,
+        "city": "Buena Vista",
+        "lat": 35.91,
+        "lon": -105.24
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 221,
+    "fields": {
+        "postal_code": 87713,
+        "city": "Chacon",
+        "lat": 36.14,
+        "lon": -105.36
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 222,
+    "fields": {
+        "postal_code": 87714,
+        "city": "Cimarron",
+        "lat": 36.5,
+        "lon": -104.91
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 223,
+    "fields": {
+        "postal_code": 87715,
+        "city": "Cleveland",
+        "lat": 35.99,
+        "lon": -105.37
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 224,
+    "fields": {
+        "postal_code": 87718,
+        "city": "Eagle Nest",
+        "lat": 36.55,
+        "lon": -105.26
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 225,
+    "fields": {
+        "postal_code": 87722,
+        "city": "Guadalupita",
+        "lat": 36.13,
+        "lon": -105.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 226,
+    "fields": {
+        "postal_code": 87723,
+        "city": "Holman",
+        "lat": 36.03,
+        "lon": -105.38
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 227,
+    "fields": {
+        "postal_code": 87724,
+        "city": "La Loma",
+        "lat": 35.17,
+        "lon": -105.08
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 228,
+    "fields": {
+        "postal_code": 87728,
+        "city": "Maxwell",
+        "lat": 36.54,
+        "lon": -104.54
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 229,
+    "fields": {
+        "postal_code": 87729,
+        "city": "Miami",
+        "lat": 36.35,
+        "lon": -104.79
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 230,
+    "fields": {
+        "postal_code": 87730,
+        "city": "Mills",
+        "lat": 36.15,
+        "lon": -104.21
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 231,
+    "fields": {
+        "postal_code": 87731,
+        "city": "Montezuma",
+        "lat": 35.76,
+        "lon": -105.41
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 232,
+    "fields": {
+        "postal_code": 87732,
+        "city": "Mora",
+        "lat": 35.97,
+        "lon": -105.32
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 233,
+    "fields": {
+        "postal_code": 87733,
+        "city": "Mosquero",
+        "lat": 35.77,
+        "lon": -103.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 234,
+    "fields": {
+        "postal_code": 87734,
+        "city": "Ocate",
+        "lat": 36.17,
+        "lon": -105.04
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 235,
+    "fields": {
+        "postal_code": 87735,
+        "city": "Ojo Feliz",
+        "lat": 36.05,
+        "lon": -105.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 236,
+    "fields": {
+        "postal_code": 87736,
+        "city": "Rainsville",
+        "lat": 35.97,
+        "lon": -105.2
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 237,
+    "fields": {
+        "postal_code": 87740,
+        "city": "Raton",
+        "lat": 36.88,
+        "lon": -104.44
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 238,
+    "fields": {
+        "postal_code": 87742,
+        "city": "Rociada",
+        "lat": 35.83,
+        "lon": -105.42
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 239,
+    "fields": {
+        "postal_code": 87743,
+        "city": "Roy",
+        "lat": 35.94,
+        "lon": -104.19
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 240,
+    "fields": {
+        "postal_code": 87745,
+        "city": "Sapello",
+        "lat": 35.77,
+        "lon": -105.25
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 241,
+    "fields": {
+        "postal_code": 87746,
+        "city": "Solano",
+        "lat": 35.84,
+        "lon": -104.06
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 242,
+    "fields": {
+        "postal_code": 87747,
+        "city": "Springer",
+        "lat": 36.36,
+        "lon": -104.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 243,
+    "fields": {
+        "postal_code": 87749,
+        "city": "Ute Park",
+        "lat": 36.55,
+        "lon": -105.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 244,
+    "fields": {
+        "postal_code": 87750,
+        "city": "Valmora",
+        "lat": 35.83,
+        "lon": -104.93
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 245,
+    "fields": {
+        "postal_code": 87752,
+        "city": "Wagon Mound",
+        "lat": 36.0,
+        "lon": -104.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 246,
+    "fields": {
+        "postal_code": 87753,
+        "city": "Watrous",
+        "lat": 35.79,
+        "lon": -104.98
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 247,
+    "fields": {
+        "postal_code": 87801,
+        "city": "Socorro",
+        "lat": 34.05,
+        "lon": -106.9
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 248,
+    "fields": {
+        "postal_code": 87820,
+        "city": "Aragon",
+        "lat": 33.88,
+        "lon": -108.53
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 249,
+    "fields": {
+        "postal_code": 87821,
+        "city": "Datil",
+        "lat": 34.14,
+        "lon": -107.84
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 250,
+    "fields": {
+        "postal_code": 87823,
+        "city": "Lemitar",
+        "lat": 34.16,
+        "lon": -106.91
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 251,
+    "fields": {
+        "postal_code": 87824,
+        "city": "Luna",
+        "lat": 33.81,
+        "lon": -108.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 252,
+    "fields": {
+        "postal_code": 87825,
+        "city": "Magdalena",
+        "lat": 34.11,
+        "lon": -107.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 253,
+    "fields": {
+        "postal_code": 87827,
+        "city": "Pie Town",
+        "lat": 34.33,
+        "lon": -108.28
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 254,
+    "fields": {
+        "postal_code": 87828,
+        "city": "Polvadera",
+        "lat": 34.21,
+        "lon": -106.92
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 255,
+    "fields": {
+        "postal_code": 87829,
+        "city": "Quemado",
+        "lat": 34.31,
+        "lon": -108.79
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 256,
+    "fields": {
+        "postal_code": 87830,
+        "city": "Reserve",
+        "lat": 33.7,
+        "lon": -108.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 257,
+    "fields": {
+        "postal_code": 87831,
+        "city": "San Acacia",
+        "lat": 34.26,
+        "lon": -106.93
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 258,
+    "fields": {
+        "postal_code": 87832,
+        "city": "San Antonio",
+        "lat": 33.91,
+        "lon": -106.86
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 259,
+    "fields": {
+        "postal_code": 87901,
+        "city": "Truth Or Consequences",
+        "lat": 33.13,
+        "lon": -107.24
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 260,
+    "fields": {
+        "postal_code": 87930,
+        "city": "Arrey",
+        "lat": 32.84,
+        "lon": -107.31
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 261,
+    "fields": {
+        "postal_code": 87931,
+        "city": "Caballo",
+        "lat": 32.97,
+        "lon": -107.3
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 262,
+    "fields": {
+        "postal_code": 87933,
+        "city": "Derry",
+        "lat": 32.79,
+        "lon": -107.28
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 263,
+    "fields": {
+        "postal_code": 87935,
+        "city": "Elephant Butte",
+        "lat": 33.25,
+        "lon": -107.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 264,
+    "fields": {
+        "postal_code": 87936,
+        "city": "Garfield",
+        "lat": 32.75,
+        "lon": -107.26
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 265,
+    "fields": {
+        "postal_code": 87937,
+        "city": "Hatch",
+        "lat": 32.66,
+        "lon": -107.15
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 266,
+    "fields": {
+        "postal_code": 87939,
+        "city": "Monticello",
+        "lat": 33.39,
+        "lon": -107.45
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 267,
+    "fields": {
+        "postal_code": 87940,
+        "city": "Rincon",
+        "lat": 32.67,
+        "lon": -107.06
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 268,
+    "fields": {
+        "postal_code": 87941,
+        "city": "Salem",
+        "lat": 32.7,
+        "lon": -107.21
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 269,
+    "fields": {
+        "postal_code": 87942,
+        "city": "Williamsburg",
+        "lat": 33.06,
+        "lon": -107.35
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 270,
+    "fields": {
+        "postal_code": 87943,
+        "city": "Winston",
+        "lat": 33.38,
+        "lon": -107.74
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 271,
+    "fields": {
+        "postal_code": 88001,
+        "city": "Las Cruces",
+        "lat": 32.29,
+        "lon": -106.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 272,
+    "fields": {
+        "postal_code": 88002,
+        "city": "White Sands Missile Range",
+        "lat": 32.46,
+        "lon": -106.49
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 273,
+    "fields": {
+        "postal_code": 88003,
+        "city": "Las Cruces",
+        "lat": 32.28,
+        "lon": -106.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 274,
+    "fields": {
+        "postal_code": 88004,
+        "city": "Las Cruces",
+        "lat": 32.22,
+        "lon": -106.99
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 275,
+    "fields": {
+        "postal_code": 88005,
+        "city": "Las Cruces",
+        "lat": 32.26,
+        "lon": -106.82
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 276,
+    "fields": {
+        "postal_code": 88006,
+        "city": "Las Cruces",
+        "lat": 32.33,
+        "lon": -106.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 277,
+    "fields": {
+        "postal_code": 88007,
+        "city": "Las Cruces",
+        "lat": 32.44,
+        "lon": -106.92
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 278,
+    "fields": {
+        "postal_code": 88008,
+        "city": "Santa Teresa",
+        "lat": 31.84,
+        "lon": -106.68
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 279,
+    "fields": {
+        "postal_code": 88009,
+        "city": "Playas",
+        "lat": 32.0,
+        "lon": -108.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 280,
+    "fields": {
+        "postal_code": 88011,
+        "city": "Las Cruces",
+        "lat": 32.33,
+        "lon": -106.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 281,
+    "fields": {
+        "postal_code": 88012,
+        "city": "Las Cruces",
+        "lat": 32.58,
+        "lon": -106.77
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 282,
+    "fields": {
+        "postal_code": 88013,
+        "city": "Las Cruces",
+        "lat": 32.31,
+        "lon": -106.79
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 283,
+    "fields": {
+        "postal_code": 88020,
+        "city": "Animas",
+        "lat": 31.94,
+        "lon": -108.83
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 284,
+    "fields": {
+        "postal_code": 88021,
+        "city": "Anthony",
+        "lat": 31.95,
+        "lon": -107.02
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 285,
+    "fields": {
+        "postal_code": 88022,
+        "city": "Arenas Valley",
+        "lat": 32.81,
+        "lon": -108.18
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 286,
+    "fields": {
+        "postal_code": 88023,
+        "city": "Bayard",
+        "lat": 32.73,
+        "lon": -108.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 287,
+    "fields": {
+        "postal_code": 88024,
+        "city": "Berino",
+        "lat": 32.07,
+        "lon": -106.64
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 288,
+    "fields": {
+        "postal_code": 88025,
+        "city": "Buckhorn",
+        "lat": 33.03,
+        "lon": -108.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 289,
+    "fields": {
+        "postal_code": 88026,
+        "city": "Santa Clara",
+        "lat": 32.75,
+        "lon": -108.16
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 290,
+    "fields": {
+        "postal_code": 88027,
+        "city": "Chamberino",
+        "lat": 32.04,
+        "lon": -106.79
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 291,
+    "fields": {
+        "postal_code": 88028,
+        "city": "Cliff",
+        "lat": 32.96,
+        "lon": -108.61
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 292,
+    "fields": {
+        "postal_code": 88029,
+        "city": "Columbus",
+        "lat": 31.82,
+        "lon": -107.64
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 293,
+    "fields": {
+        "postal_code": 88030,
+        "city": "Deming",
+        "lat": 32.26,
+        "lon": -107.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 294,
+    "fields": {
+        "postal_code": 88031,
+        "city": "Deming",
+        "lat": 32.26,
+        "lon": -107.75
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 295,
+    "fields": {
+        "postal_code": 88032,
+        "city": "Dona Ana",
+        "lat": 32.39,
+        "lon": -106.81
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 296,
+    "fields": {
+        "postal_code": 88033,
+        "city": "Fairacres",
+        "lat": 32.31,
+        "lon": -107.06
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 297,
+    "fields": {
+        "postal_code": 88034,
+        "city": "Faywood",
+        "lat": 32.56,
+        "lon": -108.02
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 298,
+    "fields": {
+        "postal_code": 88036,
+        "city": "Fort Bayard",
+        "lat": 32.79,
+        "lon": -108.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 299,
+    "fields": {
+        "postal_code": 88038,
+        "city": "Gila",
+        "lat": 32.96,
+        "lon": -108.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 300,
+    "fields": {
+        "postal_code": 88039,
+        "city": "Glenwood",
+        "lat": 33.31,
+        "lon": -108.88
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 301,
+    "fields": {
+        "postal_code": 88040,
+        "city": "Hachita",
+        "lat": 31.91,
+        "lon": -108.32
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 302,
+    "fields": {
+        "postal_code": 88041,
+        "city": "Hanover",
+        "lat": 32.79,
+        "lon": -107.91
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 303,
+    "fields": {
+        "postal_code": 88042,
+        "city": "Hillsboro",
+        "lat": 32.81,
+        "lon": -107.58
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 304,
+    "fields": {
+        "postal_code": 88043,
+        "city": "Hurley",
+        "lat": 32.69,
+        "lon": -108.13
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 305,
+    "fields": {
+        "postal_code": 88044,
+        "city": "La Mesa",
+        "lat": 32.12,
+        "lon": -106.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 306,
+    "fields": {
+        "postal_code": 88045,
+        "city": "Lordsburg",
+        "lat": 32.34,
+        "lon": -108.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 307,
+    "fields": {
+        "postal_code": 88046,
+        "city": "Mesilla",
+        "lat": 32.27,
+        "lon": -106.8
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 308,
+    "fields": {
+        "postal_code": 88047,
+        "city": "Mesilla Park",
+        "lat": 32.21,
+        "lon": -106.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 309,
+    "fields": {
+        "postal_code": 88048,
+        "city": "Mesquite",
+        "lat": 32.16,
+        "lon": -106.69
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 310,
+    "fields": {
+        "postal_code": 88049,
+        "city": "Mimbres",
+        "lat": 33.04,
+        "lon": -107.92
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 311,
+    "fields": {
+        "postal_code": 88051,
+        "city": "Mule Creek",
+        "lat": 33.12,
+        "lon": -108.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 312,
+    "fields": {
+        "postal_code": 88052,
+        "city": "Organ",
+        "lat": 32.43,
+        "lon": -106.6
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 313,
+    "fields": {
+        "postal_code": 88053,
+        "city": "Pinos Altos",
+        "lat": 32.9,
+        "lon": -108.21
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 314,
+    "fields": {
+        "postal_code": 88054,
+        "city": "Radium Springs",
+        "lat": 32.5,
+        "lon": -106.92
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 315,
+    "fields": {
+        "postal_code": 88055,
+        "city": "Redrock",
+        "lat": 32.68,
+        "lon": -108.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 316,
+    "fields": {
+        "postal_code": 88056,
+        "city": "Rodeo",
+        "lat": 31.83,
+        "lon": -109.03
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 317,
+    "fields": {
+        "postal_code": 88058,
+        "city": "San Miguel",
+        "lat": 32.15,
+        "lon": -106.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 318,
+    "fields": {
+        "postal_code": 88061,
+        "city": "Silver City",
+        "lat": 32.78,
+        "lon": -108.26
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 319,
+    "fields": {
+        "postal_code": 88062,
+        "city": "Silver City",
+        "lat": 32.78,
+        "lon": -108.26
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 320,
+    "fields": {
+        "postal_code": 88063,
+        "city": "Sunland Park",
+        "lat": 31.79,
+        "lon": -106.57
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 321,
+    "fields": {
+        "postal_code": 88065,
+        "city": "Tyrone",
+        "lat": 32.68,
+        "lon": -108.33
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 322,
+    "fields": {
+        "postal_code": 88072,
+        "city": "Vado",
+        "lat": 32.14,
+        "lon": -106.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 323,
+    "fields": {
+        "postal_code": 88081,
+        "city": "Chaparral",
+        "lat": 32.04,
+        "lon": -106.44
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 324,
+    "fields": {
+        "postal_code": 88101,
+        "city": "Clovis",
+        "lat": 34.41,
+        "lon": -103.2
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 325,
+    "fields": {
+        "postal_code": 88102,
+        "city": "Clovis",
+        "lat": 34.41,
+        "lon": -103.2
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 326,
+    "fields": {
+        "postal_code": 88103,
+        "city": "Cannon Afb",
+        "lat": 34.38,
+        "lon": -103.31
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 327,
+    "fields": {
+        "postal_code": 88112,
+        "city": "Broadview",
+        "lat": 34.81,
+        "lon": -103.21
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 328,
+    "fields": {
+        "postal_code": 88113,
+        "city": "Causey",
+        "lat": 33.86,
+        "lon": -103.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 329,
+    "fields": {
+        "postal_code": 88114,
+        "city": "Crossroads",
+        "lat": 33.51,
+        "lon": -103.33
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 330,
+    "fields": {
+        "postal_code": 88115,
+        "city": "Dora",
+        "lat": 33.93,
+        "lon": -103.35
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 331,
+    "fields": {
+        "postal_code": 88116,
+        "city": "Elida",
+        "lat": 33.94,
+        "lon": -103.65
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 332,
+    "fields": {
+        "postal_code": 88118,
+        "city": "Floyd",
+        "lat": 34.21,
+        "lon": -103.54
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 333,
+    "fields": {
+        "postal_code": 88119,
+        "city": "Fort Sumner",
+        "lat": 34.47,
+        "lon": -104.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 334,
+    "fields": {
+        "postal_code": 88120,
+        "city": "Grady",
+        "lat": 34.82,
+        "lon": -103.31
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 335,
+    "fields": {
+        "postal_code": 88121,
+        "city": "House",
+        "lat": 34.64,
+        "lon": -103.9
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 336,
+    "fields": {
+        "postal_code": 88122,
+        "city": "Kenna",
+        "lat": 33.84,
+        "lon": -103.77
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 337,
+    "fields": {
+        "postal_code": 88123,
+        "city": "Lingo",
+        "lat": 33.78,
+        "lon": -103.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 338,
+    "fields": {
+        "postal_code": 88124,
+        "city": "Melrose",
+        "lat": 34.42,
+        "lon": -103.62
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 339,
+    "fields": {
+        "postal_code": 88125,
+        "city": "Milnesand",
+        "lat": 33.64,
+        "lon": -103.33
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 340,
+    "fields": {
+        "postal_code": 88126,
+        "city": "Pep",
+        "lat": 33.81,
+        "lon": -103.37
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 341,
+    "fields": {
+        "postal_code": 88130,
+        "city": "Portales",
+        "lat": 34.18,
+        "lon": -103.34
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 342,
+    "fields": {
+        "postal_code": 88132,
+        "city": "Rogers",
+        "lat": 33.98,
+        "lon": -103.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 343,
+    "fields": {
+        "postal_code": 88133,
+        "city": "Saint Vrain",
+        "lat": 34.41,
+        "lon": -103.48
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 344,
+    "fields": {
+        "postal_code": 88134,
+        "city": "Taiban",
+        "lat": 34.44,
+        "lon": -104.0
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 345,
+    "fields": {
+        "postal_code": 88135,
+        "city": "Texico",
+        "lat": 34.38,
+        "lon": -103.05
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 346,
+    "fields": {
+        "postal_code": 88136,
+        "city": "Yeso",
+        "lat": 34.43,
+        "lon": -104.6
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 347,
+    "fields": {
+        "postal_code": 88201,
+        "city": "Roswell",
+        "lat": 33.64,
+        "lon": -104.38
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 348,
+    "fields": {
+        "postal_code": 88202,
+        "city": "Roswell",
+        "lat": 33.37,
+        "lon": -104.52
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 349,
+    "fields": {
+        "postal_code": 88203,
+        "city": "Roswell",
+        "lat": 33.33,
+        "lon": -104.52
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 350,
+    "fields": {
+        "postal_code": 88210,
+        "city": "Artesia",
+        "lat": 32.84,
+        "lon": -104.43
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 351,
+    "fields": {
+        "postal_code": 88211,
+        "city": "Artesia",
+        "lat": 32.84,
+        "lon": -104.43
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 352,
+    "fields": {
+        "postal_code": 88213,
+        "city": "Caprock",
+        "lat": 33.39,
+        "lon": -103.71
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 353,
+    "fields": {
+        "postal_code": 88220,
+        "city": "Carlsbad",
+        "lat": 32.4,
+        "lon": -104.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 354,
+    "fields": {
+        "postal_code": 88221,
+        "city": "Carlsbad",
+        "lat": 32.4,
+        "lon": -104.23
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 355,
+    "fields": {
+        "postal_code": 88230,
+        "city": "Dexter",
+        "lat": 33.19,
+        "lon": -104.36
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 356,
+    "fields": {
+        "postal_code": 88231,
+        "city": "Eunice",
+        "lat": 32.44,
+        "lon": -103.19
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 357,
+    "fields": {
+        "postal_code": 88232,
+        "city": "Hagerman",
+        "lat": 33.11,
+        "lon": -104.32
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 358,
+    "fields": {
+        "postal_code": 88240,
+        "city": "Hobbs",
+        "lat": 32.73,
+        "lon": -103.16
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 359,
+    "fields": {
+        "postal_code": 88241,
+        "city": "Hobbs",
+        "lat": 32.73,
+        "lon": -103.16
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 360,
+    "fields": {
+        "postal_code": 88242,
+        "city": "Hobbs",
+        "lat": 32.81,
+        "lon": -103.16
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 361,
+    "fields": {
+        "postal_code": 88244,
+        "city": "Hobbs",
+        "lat": 32.73,
+        "lon": -103.16
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 362,
+    "fields": {
+        "postal_code": 88250,
+        "city": "Hope",
+        "lat": 32.81,
+        "lon": -104.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 363,
+    "fields": {
+        "postal_code": 88252,
+        "city": "Jal",
+        "lat": 32.11,
+        "lon": -103.18
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 364,
+    "fields": {
+        "postal_code": 88253,
+        "city": "Lake Arthur",
+        "lat": 32.99,
+        "lon": -104.36
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 365,
+    "fields": {
+        "postal_code": 88254,
+        "city": "Lakewood",
+        "lat": 32.61,
+        "lon": -104.45
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 366,
+    "fields": {
+        "postal_code": 88255,
+        "city": "Loco Hills",
+        "lat": 32.81,
+        "lon": -103.97
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 367,
+    "fields": {
+        "postal_code": 88256,
+        "city": "Loving",
+        "lat": 32.28,
+        "lon": -104.09
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 368,
+    "fields": {
+        "postal_code": 88260,
+        "city": "Lovington",
+        "lat": 32.94,
+        "lon": -103.35
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 369,
+    "fields": {
+        "postal_code": 88262,
+        "city": "Mcdonald",
+        "lat": 33.12,
+        "lon": -103.42
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 370,
+    "fields": {
+        "postal_code": 88263,
+        "city": "Malaga",
+        "lat": 32.22,
+        "lon": -104.07
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 371,
+    "fields": {
+        "postal_code": 88264,
+        "city": "Maljamar",
+        "lat": 32.85,
+        "lon": -103.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 372,
+    "fields": {
+        "postal_code": 88265,
+        "city": "Monument",
+        "lat": 32.62,
+        "lon": -103.26
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 373,
+    "fields": {
+        "postal_code": 88267,
+        "city": "Tatum",
+        "lat": 33.25,
+        "lon": -103.31
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 374,
+    "fields": {
+        "postal_code": 88268,
+        "city": "Whites City",
+        "lat": 32.18,
+        "lon": -104.38
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 375,
+    "fields": {
+        "postal_code": 88301,
+        "city": "Carrizozo",
+        "lat": 33.64,
+        "lon": -105.88
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 376,
+    "fields": {
+        "postal_code": 88310,
+        "city": "Alamogordo",
+        "lat": 32.88,
+        "lon": -105.95
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 377,
+    "fields": {
+        "postal_code": 88311,
+        "city": "Alamogordo",
+        "lat": 32.81,
+        "lon": -105.99
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 378,
+    "fields": {
+        "postal_code": 88312,
+        "city": "Alto",
+        "lat": 33.44,
+        "lon": -105.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 379,
+    "fields": {
+        "postal_code": 88314,
+        "city": "Bent",
+        "lat": 33.15,
+        "lon": -105.88
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 380,
+    "fields": {
+        "postal_code": 88316,
+        "city": "Capitan",
+        "lat": 33.54,
+        "lon": -105.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 381,
+    "fields": {
+        "postal_code": 88317,
+        "city": "Cloudcroft",
+        "lat": 32.95,
+        "lon": -105.73
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 382,
+    "fields": {
+        "postal_code": 88318,
+        "city": "Corona",
+        "lat": 34.24,
+        "lon": -105.59
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 383,
+    "fields": {
+        "postal_code": 88321,
+        "city": "Encino",
+        "lat": 34.65,
+        "lon": -105.45
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 384,
+    "fields": {
+        "postal_code": 88323,
+        "city": "Fort Stanton",
+        "lat": 33.49,
+        "lon": -105.53
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 385,
+    "fields": {
+        "postal_code": 88324,
+        "city": "Glencoe",
+        "lat": 33.4,
+        "lon": -105.44
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 386,
+    "fields": {
+        "postal_code": 88325,
+        "city": "High Rolls Mountain Park",
+        "lat": 32.86,
+        "lon": -105.86
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 387,
+    "fields": {
+        "postal_code": 88330,
+        "city": "Holloman Air Force Base",
+        "lat": 32.84,
+        "lon": -106.08
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 388,
+    "fields": {
+        "postal_code": 88336,
+        "city": "Hondo",
+        "lat": 33.38,
+        "lon": -105.27
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 389,
+    "fields": {
+        "postal_code": 88337,
+        "city": "La Luz",
+        "lat": 32.97,
+        "lon": -105.93
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 390,
+    "fields": {
+        "postal_code": 88338,
+        "city": "Lincoln",
+        "lat": 33.49,
+        "lon": -105.38
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 391,
+    "fields": {
+        "postal_code": 88339,
+        "city": "Mayhill",
+        "lat": 32.88,
+        "lon": -105.47
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 392,
+    "fields": {
+        "postal_code": 88340,
+        "city": "Mescalero",
+        "lat": 33.15,
+        "lon": -105.79
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 393,
+    "fields": {
+        "postal_code": 88341,
+        "city": "Nogal",
+        "lat": 33.55,
+        "lon": -105.7
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 394,
+    "fields": {
+        "postal_code": 88342,
+        "city": "Orogrande",
+        "lat": 32.39,
+        "lon": -106.11
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 395,
+    "fields": {
+        "postal_code": 88343,
+        "city": "Picacho",
+        "lat": 33.35,
+        "lon": -105.14
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 396,
+    "fields": {
+        "postal_code": 88344,
+        "city": "Pinon",
+        "lat": 32.61,
+        "lon": -105.39
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 397,
+    "fields": {
+        "postal_code": 88345,
+        "city": "Ruidoso",
+        "lat": 33.35,
+        "lon": -105.68
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 398,
+    "fields": {
+        "postal_code": 88346,
+        "city": "Ruidoso Downs",
+        "lat": 33.33,
+        "lon": -105.6
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 399,
+    "fields": {
+        "postal_code": 88347,
+        "city": "Sacramento",
+        "lat": 32.79,
+        "lon": -105.56
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 400,
+    "fields": {
+        "postal_code": 88348,
+        "city": "San Patricio",
+        "lat": 33.4,
+        "lon": -105.32
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 401,
+    "fields": {
+        "postal_code": 88349,
+        "city": "Sunspot",
+        "lat": 32.78,
+        "lon": -105.8
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 402,
+    "fields": {
+        "postal_code": 88350,
+        "city": "Timberon",
+        "lat": 32.63,
+        "lon": -105.69
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 403,
+    "fields": {
+        "postal_code": 88351,
+        "city": "Tinnie",
+        "lat": 33.55,
+        "lon": -105.09
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 404,
+    "fields": {
+        "postal_code": 88352,
+        "city": "Tularosa",
+        "lat": 33.07,
+        "lon": -106.02
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 405,
+    "fields": {
+        "postal_code": 88353,
+        "city": "Vaughn",
+        "lat": 34.6,
+        "lon": -105.21
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 406,
+    "fields": {
+        "postal_code": 88354,
+        "city": "Weed",
+        "lat": 32.8,
+        "lon": -105.51
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 407,
+    "fields": {
+        "postal_code": 88355,
+        "city": "Ruidoso",
+        "lat": 33.36,
+        "lon": -105.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 408,
+    "fields": {
+        "postal_code": 88401,
+        "city": "Tucumcari",
+        "lat": 35.16,
+        "lon": -103.72
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 409,
+    "fields": {
+        "postal_code": 88410,
+        "city": "Amistad",
+        "lat": 35.91,
+        "lon": -103.15
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 410,
+    "fields": {
+        "postal_code": 88411,
+        "city": "Bard",
+        "lat": 35.14,
+        "lon": -103.15
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 411,
+    "fields": {
+        "postal_code": 88414,
+        "city": "Capulin",
+        "lat": 36.78,
+        "lon": -104.0
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 412,
+    "fields": {
+        "postal_code": 88415,
+        "city": "Clayton",
+        "lat": 36.45,
+        "lon": -103.17
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 413,
+    "fields": {
+        "postal_code": 88416,
+        "city": "Conchas Dam",
+        "lat": 35.29,
+        "lon": -104.19
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 414,
+    "fields": {
+        "postal_code": 88417,
+        "city": "Cuervo",
+        "lat": 35.03,
+        "lon": -104.4
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 415,
+    "fields": {
+        "postal_code": 88418,
+        "city": "Des Moines",
+        "lat": 36.76,
+        "lon": -103.83
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 416,
+    "fields": {
+        "postal_code": 88419,
+        "city": "Folsom",
+        "lat": 36.84,
+        "lon": -103.91
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 417,
+    "fields": {
+        "postal_code": 88421,
+        "city": "Garita",
+        "lat": 35.35,
+        "lon": -104.48
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 418,
+    "fields": {
+        "postal_code": 88422,
+        "city": "Gladstone",
+        "lat": 36.35,
+        "lon": -103.99
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 419,
+    "fields": {
+        "postal_code": 88424,
+        "city": "Grenville",
+        "lat": 36.59,
+        "lon": -103.61
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 420,
+    "fields": {
+        "postal_code": 88426,
+        "city": "Logan",
+        "lat": 35.36,
+        "lon": -103.44
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 421,
+    "fields": {
+        "postal_code": 88427,
+        "city": "Mcalister",
+        "lat": 34.77,
+        "lon": -103.77
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 422,
+    "fields": {
+        "postal_code": 88430,
+        "city": "Nara Visa",
+        "lat": 35.6,
+        "lon": -103.09
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 423,
+    "fields": {
+        "postal_code": 88431,
+        "city": "Newkirk",
+        "lat": 35.17,
+        "lon": -104.27
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 424,
+    "fields": {
+        "postal_code": 88433,
+        "city": "Quay",
+        "lat": 34.93,
+        "lon": -103.76
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 425,
+    "fields": {
+        "postal_code": 88434,
+        "city": "San Jon",
+        "lat": 35.11,
+        "lon": -103.32
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 426,
+    "fields": {
+        "postal_code": 88435,
+        "city": "Santa Rosa",
+        "lat": 34.94,
+        "lon": -104.67
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 427,
+    "fields": {
+        "postal_code": 88436,
+        "city": "Sedan",
+        "lat": 36.14,
+        "lon": -103.13
+    }
+},
+{
+    "model": "shopper_app.geoloc",
+    "pk": 428,
+    "fields": {
+        "postal_code": 88439,
+        "city": "Trementina",
+        "lat": 35.47,
+        "lon": -104.52
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 2,
+    "fields": {
+        "name": "Date",
+        "price": 2,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Phoenix_dactylifera2.jpg/240px-Phoenix_dactylifera2.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 3,
+    "fields": {
+        "name": "Dragonfruit (or Pitaya)",
+        "price": 12,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hylocereus_undatus_red_pitahaya.jpg/220px-Hylocereus_undatus_red_pitahaya.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 4,
+    "fields": {
+        "name": "Durian",
+        "price": 8,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Durio_kutej_F_070203_ime.jpg/260px-Durio_kutej_F_070203_ime.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 5,
+    "fields": {
+        "name": "Goji berry",
+        "price": 8,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Goji_berries.jpg/220px-Goji_berries.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 6,
+    "fields": {
+        "name": "Gooseberry",
+        "price": 11,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Stachelbeeren.jpg/220px-Stachelbeeren.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 7,
+    "fields": {
+        "name": "Grape",
+        "price": 3,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Close_up_grapes.jpg/250px-Close_up_grapes.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 8,
+    "fields": {
+        "name": "Grapefruit",
+        "price": 10,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Grapefruit_700x490.jpg/250px-Grapefruit_700x490.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 9,
+    "fields": {
+        "name": "Guava",
+        "price": 4,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Psidium_guajava.jpg/240px-Psidium_guajava.jpg"
+    }
+},
+{
+    "model": "shopper_app.item",
+    "pk": 10,
+    "fields": {
+        "name": "Honeyberry",
+        "price": 1,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lonicera_kamtschatica_berries.jpg/250px-Lonicera_kamtschatica_berries.jpg"
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1792,
+    "fields": {
+        "item": 2,
+        "location": 279
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1793,
+    "fields": {
+        "item": 2,
+        "location": 27
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1794,
+    "fields": {
+        "item": 2,
+        "location": 355
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1795,
+    "fields": {
+        "item": 2,
+        "location": 345
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1796,
+    "fields": {
+        "item": 3,
+        "location": 17
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1797,
+    "fields": {
+        "item": 3,
+        "location": 81
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1798,
+    "fields": {
+        "item": 3,
+        "location": 344
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1799,
+    "fields": {
+        "item": 3,
+        "location": 359
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1800,
+    "fields": {
+        "item": 3,
+        "location": 27
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1801,
+    "fields": {
+        "item": 3,
+        "location": 207
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1802,
+    "fields": {
+        "item": 4,
+        "location": 26
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1803,
+    "fields": {
+        "item": 4,
+        "location": 373
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1804,
+    "fields": {
+        "item": 4,
+        "location": 29
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1805,
+    "fields": {
+        "item": 4,
+        "location": 100
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1806,
+    "fields": {
+        "item": 4,
+        "location": 128
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1807,
+    "fields": {
+        "item": 4,
+        "location": 135
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1808,
+    "fields": {
+        "item": 5,
+        "location": 292
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1809,
+    "fields": {
+        "item": 5,
+        "location": 266
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1810,
+    "fields": {
+        "item": 5,
+        "location": 217
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1811,
+    "fields": {
+        "item": 5,
+        "location": 160
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1812,
+    "fields": {
+        "item": 5,
+        "location": 218
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1813,
+    "fields": {
+        "item": 6,
+        "location": 342
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1814,
+    "fields": {
+        "item": 6,
+        "location": 127
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1815,
+    "fields": {
+        "item": 6,
+        "location": 119
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1816,
+    "fields": {
+        "item": 6,
+        "location": 412
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1817,
+    "fields": {
+        "item": 7,
+        "location": 108
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1818,
+    "fields": {
+        "item": 7,
+        "location": 193
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1819,
+    "fields": {
+        "item": 7,
+        "location": 213
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1820,
+    "fields": {
+        "item": 7,
+        "location": 207
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1821,
+    "fields": {
+        "item": 7,
+        "location": 357
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1822,
+    "fields": {
+        "item": 7,
+        "location": 35
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1823,
+    "fields": {
+        "item": 8,
+        "location": 88
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1824,
+    "fields": {
+        "item": 8,
+        "location": 267
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1825,
+    "fields": {
+        "item": 8,
+        "location": 215
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1826,
+    "fields": {
+        "item": 9,
+        "location": 249
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1827,
+    "fields": {
+        "item": 9,
+        "location": 382
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1828,
+    "fields": {
+        "item": 10,
+        "location": 275
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1829,
+    "fields": {
+        "item": 10,
+        "location": 387
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1830,
+    "fields": {
+        "item": 10,
+        "location": 352
+    }
+},
+{
+    "model": "shopper_app.itemlocation",
+    "pk": 1831,
+    "fields": {
+        "item": 10,
+        "location": 343
+    }
+}
+]

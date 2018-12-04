@@ -1,0 +1,115 @@
+# cs463 Final Project Starter Code
+
+## Overview
+For this final assignment you will modify an existing Django web application by implementing backend application logic and frontend display and manipulation. The existing web application is based on the [shopping list](URL) project we have been looking at for the last half of the semester. For the current extension, you will implement a page that shows selected items by the user that are within a minimal distance from Las Vegas NM (the origin). Items in the db are mapped to locations such that any given item can be located in 1 or more locations. The goal is to retrieve locations of items that are closest to the origin. In addition, these minimal locations are to be plotted (marked) in a map on the client browser. The following tasks will help you break down the necessary modifications to achieve the intended result.
+
+## Submission
+
+### Due in your repository by Friday Dec 14 by 11:59p. (I will clone/download whatever state your code is in at that time).
+Be sure that your consistently adding, committing, and pushing your changes to your github repo.
+
+## Tasks
+
+### Project Setup
+
+* Create a virtual enviroment for this project on your development machine and make sure it is activated. (**Python 3 required**)
+
+* Fork this Django project to your GH account then clone **your** fork to your development machine.
+
+* CD to project root and run the following commands to prepare the application for development.
+
+    * In your virtual environment install the package (Django, Geopy, etc.) requirements: > pip install -r requirements.txt
+
+    * Create the necessary db tables for the application: > python manage.py migrate
+
+    * Create a superuser account: > python manage.py createsuperuser
+
+    * Prepopulate application with existing data stored in a fixture: > python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
+
+    * Start the Django development server: > python manage.py runserver
+
+### A. Modify ```ItemView```
+Modify the ```get_context_data()``` method in ItemView to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations.
+
+### B. Modify Backend
+The relevant view to edit for this assignment is [ItemsResultsRestView](URL). Your task is to implement the application logic in order to: 
+
+a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a new list of items that are of minimal distance to origin. 
+
+    * Use geopy and Nominatum python package to [compute distances](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)
+
+    > Be sure to use 'class project' for the ```user-agent``` attribute for the Nominatum constructor.
+
+b. From ItemLocations calculate the total miles required to visit each location.
+
+c. From Items calculate the total cost of the selected items.
+
+d. Properly construct the ```data``` dict to send as response to client.
+
+If the view properly sends data back to client, then the following modification to the frontend should result in the intended result.
+
+### C. Modify Frontend 
+* Add the correct url pattern in ```urls.py``` so that ```shop/``` displays the shop.html page. Be sure to give it a 'name'. Use view ```SelectItemsView```
+
+* Modify the menu bar in ```base.html``` so that the shop menu option accesses the shop.html page (use pattern you created above).
+
+* Modify ```shop.html``` by Completing the form that lists all the items in the db in a checklist. Each checklist item should use the primary key value for each item. For example, the pk of one of the items has a value of 2. Its checkbox ```value``` would be set as follows. Note that the ```name``` attribute of all checkbox items should be **items**. You can retrieve the pk by inspecting the admin site listing of item objects.
+
+```html
+<input type="checkbox" name="items" value="3">
+```
+
+* The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from list then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. The AJAX Response from server should return the optimal location (latitude, longitude) for each selected **item information**, **total cost of selected items**, and **total miles required to visit each location**. See the structure below.
+
+#### The structure of the json response:
+
+```python
+"""
+    response structure
+    data = 
+        {
+        'items': [], 
+        'miles': miles, 
+        'cost': total_cost
+        }
+
+    items:  list of item objects that are minimal distance to origin.
+        structure for each item object:
+        
+        {
+            'name': item name, 
+            'price': item price, 
+            'lat': item latitude, 
+            'lon': longitude, 
+            'image_url': item image url
+        }
+
+    miles:  number of miles required to fetch each item at each location. The
+            total distance traversing the path of locations.
+
+    total_cost: The total cost of all item objects selected in form. 
+    """
+
+```
+
+## Relevant JavaScript Reference
+
+### Checkbox
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
+
+### AJAX
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+- In class example [NY Times third pary api]()
+
+### Geopy
+- [geopy docs](https://geopy.readthedocs.io/en/stable/#)
+
+- [geopy calculating distance](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)
+
+### Mapping
+- https://leafletjs.com/
+
+- In class example [Mapping and NYTimes lookup using Leaflet and NYT third party apis]()
+
+

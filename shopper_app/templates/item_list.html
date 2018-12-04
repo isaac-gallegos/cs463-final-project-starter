@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content_body %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>The Item Inventory</h1>
+        <a class="btn btn-primary" href="{% url 'item_add' %}">Add New Item</a>
+    
+        <ul class="list-unstyled">
+        {% for item in object_list %} 
+           <li>
+               <a class="btn btn-link" href="{% url 'item' item.pk %}">{{ item.name }} ${{ item.price }}</a>                
+           </li>
+        {% endfor %}
+        </ul>
+
+    </div>
+</div>
+{% endblock content_body %}

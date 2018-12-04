@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content_body %}
+
+<div class="row">
+	<div class="col-md-12">
+		<h2>Add a New Item</h2>
+		<p>
+			<form method="post" action=".">
+				{% csrf_token %}
+				{{ form.as_p }}
+				<button type="submit">Add This Item</button>
+			</form>
+			<a href="https://images.google.com/" target="_blank">Look up an image for this item?</a>				
+		</p>
+	</div>
+</div>
+
+{% endblock content_body %}

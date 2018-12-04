@@ -1,0 +1,38 @@
+<!-- shop.html -->
+{% extends "base.html" %}
+
+{% block content_body %}
+
+<div class="row"><div class="col-md-10">
+    <p>Complete form on this page and modify additional html and javascript as directed in <a href="">readme</a></p>   
+
+    <form id="item_selection_form" method="post">{% csrf_token %}
+
+        <button type="submit" id="submit_btn">submit</button>
+    </form>
+
+</div></div>
+
+<script type="text/javascript">
+var baseURL = "{% url 'items_rest' %}";
+
+// Grab references to all the DOM elements you'll need to manipulate
+var searchForm = document.querySelector('form');
+
+// Event listeners to control the functionality
+searchForm.addEventListener('submit', getresults);
+
+function getresults(e) {
+    e.preventDefault();
+    var form_data = {body: new FormData(e.target), method: "post"}
+
+    fetch(baseURL, form_data)
+        .then( function(response) {
+            return response.json();
+        })
+        .then( function(json) { 
+            // Handle json response here and manipulate dom as needed.
+        });
+    }
+</script>
+{% endblock content_body %}
