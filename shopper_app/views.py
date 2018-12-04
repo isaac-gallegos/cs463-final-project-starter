@@ -24,7 +24,7 @@ class ItemView(generic.DetailView):
     def get_context_data(self, **kwargs):
         context = super(ItemView, self).get_context_data(**kwargs)
         item_obj = self.get_object()
-        
+
         return context
 
 
@@ -69,11 +69,11 @@ class ItemsResultsRestView(generic.View):
         structure for each item object:
         
         {
-            'name': item name, 
-            'price': item price, 
-            'lat': item latitude, 
-            'lon': longitude, 
-            'image_url': item image url
+            'name': item's name, 
+            'price': item's price, 
+            'lat': item's latitude, 
+            'lon': item's longitude, 
+            'image_url': item's image url
         }
 
     miles:  number of miles required to fetch each item at each location. The
@@ -88,11 +88,10 @@ class ItemsResultsRestView(generic.View):
         form = SearchForm(request.POST)
         miles = 0       # total number miles to fetch all items
         total_cost = 0  # total cost of all items
-
+        
         # data dict sent back to client as response 
-        # Note: each item in items list should be a dict of the format
-        # {'name': item name, 'price': item price, 'lat': item latitude, 'lon': longitude}
         data = {'items': [], 'miles': miles, 'cost': total_cost}
+        # Note: each item in 'items' list is a dict in itself and should be structured as outlined above.
 
         if form.is_valid:
             # Extract selected items (checked items from form) and build list of item objects

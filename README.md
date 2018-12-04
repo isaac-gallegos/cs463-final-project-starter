@@ -138,11 +138,11 @@ If the view properly sends data back to client, then the following modification 
         structure for each item object:
         
         {
-            'name': item name, 
-            'price': item price, 
-            'lat': item latitude, 
-            'lon': longitude, 
-            'image_url': item image url
+            'name': item's name, 
+            'price': item's price, 
+            'lat': item's latitude, 
+            'lon': item's longitude, 
+            'image_url': item's image url
         }
 
     miles:  number of miles required to fetch each item at each location. The
@@ -152,6 +152,9 @@ If the view properly sends data back to client, then the following modification 
 """
 
 ```
+
+### Sanity Check
+Be sure your application is correctly displaying the selected items that are closest to origin. If the map is setup correctly one should be able to ascertain this by visual inspection.
 
 ## Relevant JavaScript Reference
 
