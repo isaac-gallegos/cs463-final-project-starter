@@ -93,7 +93,7 @@ city:  Paguate
 
 ```
 
-    - If you can retrieve latitude and longitude you can compute distances using [geopy](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)
+- If you can retrieve latitude and longitude you can compute distances using [geopy](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)
 
 b. From your list of minimal distance item_locations calculate the total miles required to visit each location.
 
