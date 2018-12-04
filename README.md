@@ -20,7 +20,7 @@ Be sure that you are consistently adding, committing, and pushing your changes t
 
     * In your virtual environment install the package (Django, Geopy, etc.) requirements: 
 
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
     * Create the necessary db tables for the application: 
 
