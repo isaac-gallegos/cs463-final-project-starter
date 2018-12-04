@@ -6,7 +6,7 @@ For this final assignment you will modify an existing Django web application by 
 ## Submission
 
 ### Due in your repository by Friday Dec 14 by 11:59p. (I will clone/download whatever state your code is in at that time).
-Be sure that your consistently adding, committing, and pushing your changes to your github repo.
+Be sure that you are consistently adding, committing, and pushing your changes to your github repo.
 
 ## Tasks
 
@@ -44,9 +44,7 @@ Modify the ```get_context_data()``` method in [ItemView](https://github.com/rmed
 ### B. Modify Backend
 The relevant view to edit for this assignment is [ItemsResultsRestView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L55). Your task is to implement the application logic in order to: 
 
-a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a new list of items that are of minimal distance to origin. 
-
-    * Use geopy and Nominatum python package to [compute distances](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)
+a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a new list of items that are of minimal distance to origin. **Use geopy and Nominatum python package to [compute distances](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)**
 
     > Be sure to use 'class project' for the ```user-agent``` attribute for the Nominatum constructor.
 
@@ -63,13 +61,13 @@ If the view properly sends data back to client, then the following modification 
 
 * Modify the menu bar in ```base.html``` so that the shop menu option accesses the shop.html page (use pattern you created above).
 
-* Modify ```shop.html``` by Completing the form that lists all the items in the db in a checklist. Each checklist item should use the primary key value for each item. For example, the pk of one of the items has a value of 2. Its checkbox ```value``` would be set as follows. Note that the ```name``` attribute of all checkbox items should be **items**. You can retrieve the pk by inspecting the admin site listing of item objects.
+* Modify ```shop.html``` by completing the form that lists all the items in the db in a checklist. Each checklist item should use the primary key value for each item. For example, the pk of one of the items has a value of 2. Its checkbox ```value``` would be set as follows. Note that the ```name``` attribute of all checkbox items should be **items**. You can retrieve the pk by inspecting the admin site listing of item objects.
 
 ```html
 <input type="checkbox" name="items" value="3">
 ```
 
-* The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from list then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. The AJAX Response from server should return the optimal location (latitude, longitude) for each selected **item information**, **total cost of selected items**, and **total miles required to visit each location**. See the structure below.
+* The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from checklist then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. The AJAX Response from server should return the optimal location (latitude, longitude) for each selected **item information**, **total cost of selected items**, and **total miles required to visit each location**. See the structure below.
 
 #### The structure of the json response:
 
