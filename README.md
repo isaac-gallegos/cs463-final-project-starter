@@ -44,13 +44,59 @@ Modify the ```get_context_data()``` method in [ItemView](https://github.com/rmed
 ### B. Modify Backend
 The relevant view to edit for this assignment is [ItemsResultsRestView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L55). Your task is to implement the application logic in order to: 
 
-a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a new list of items that are of minimal distance to origin. **Use geopy and Nominatum python package to [compute distances](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)**
+a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a **NEW** list of ```ItemLocation``` objects that are of minimal distance to origin. **Use geopy and Nominatum python package for computing distance.**
 
     > Be sure to use 'class project' for the ```user-agent``` attribute for the Nominatum constructor.
 
-b. From ItemLocations calculate the total miles required to visit each location.
+#### Helpful Hints:
+    - To get a list of ```ItemLocation``` associations for an Item object use the ```related_name``` attribute. If ```item_obj``` is a "Grape", here are its related locations
 
-c. From Items calculate the total cost of the selected items.
+```python
+item_locations = item_obj.locations.all()
+```
+
+    - Each ```ItemLocation``` object has a ```location`` attribute that in turn has a ```lat``` and ```lon``` attribute.
+    
+    - Grapes are located at six locations
+
+```python
+for item_loc in item_locations:
+   print('item: ', item_loc.item.name)
+   print('city: ', item_loc.location.city)
+   print('(latitude, longitude): ', item_loc.location.lat, item_loc.location.lon)
+   print('\n')
+ 
+item:  Grape
+city:  Gallup
+(latitude, longitude):  35.38 -108.8
+
+item:  Grape
+city:  Ranchos De Taos
+(latitude, longitude):  36.36 -105.6
+
+item:  Grape
+city:  Villanueva
+(latitude, longitude):  35.26 -105.36
+
+item:  Grape
+city:  Tres Piedras
+(latitude, longitude):  36.64 -105.96
+
+item:  Grape
+city:  Hagerman
+(latitude, longitude):  33.11 -104.32
+
+item:  Grape
+city:  Paguate
+(latitude, longitude):  35.1 -107.38
+
+```
+
+    - If you can retrieve latitude and longitude you can compute distances using [geopy](https://geopy.readthedocs.io/en/stable/#module-geopy.distance)
+
+b. From your list of minimal distance item_locations calculate the total miles required to visit each location.
+
+c. From your list of item_locations calculate the total cost of the selected items.
 
 d. Properly construct the ```data``` dict to send as response to client.
 
