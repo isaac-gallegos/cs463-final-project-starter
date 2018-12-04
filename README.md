@@ -18,15 +18,25 @@ Be sure that your consistently adding, committing, and pushing your changes to y
 
 * CD to project root and run the following commands to prepare the application for development.
 
-    * In your virtual environment install the package (Django, Geopy, etc.) requirements: > pip install -r requirements.txt
+    * In your virtual environment install the package (Django, Geopy, etc.) requirements: 
 
-    * Create the necessary db tables for the application: > python manage.py migrate
+    > pip install -r requirements.txt
 
-    * Create a superuser account: > python manage.py createsuperuser
+    * Create the necessary db tables for the application: 
 
-    * Prepopulate application with existing data stored in a fixture: > python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
+    > python manage.py migrate
 
-    * Start the Django development server: > python manage.py runserver
+    * Create a superuser account: 
+
+    > python manage.py createsuperuser
+
+    * Prepopulate application with existing data stored in a fixture: 
+
+    > python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
+
+    * Start the Django development server: 
+
+    > python manage.py runserver
 
 ### A. Modify ```ItemView```
 Modify the ```get_context_data()``` method in ItemView to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations.
