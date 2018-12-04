@@ -56,7 +56,7 @@ a. Retrieve the minimal distance between each item object in the ```item_objects
 item_locations = item_obj.locations.all()
 ```
 
-- Each ```ItemLocation``` object has a ```location`` attribute that in turn has a ```lat``` and ```lon``` attribute.
+- Each ```ItemLocation``` object has a ```location``` attribute that in turn has a ```lat``` and ```lon``` attribute.
     
 - Grapes are located at six locations
 
