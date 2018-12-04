@@ -20,23 +20,23 @@ Be sure that you are consistently adding, committing, and pushing your changes t
 
     * In your virtual environment install the package (Django, Geopy, etc.) requirements: 
 
-    >pip install -r requirements.txt
+    > pip install -r requirements.txt
 
     * Create the necessary db tables for the application: 
 
-    - python manage.py migrate
+    > python manage.py migrate
 
     * Create a superuser account: 
 
-    - python manage.py createsuperuser
+    > python manage.py createsuperuser
 
     * Prepopulate application with existing data stored in a fixture: 
 
-    - python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
+    > python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
 
     * Start the Django development server: 
 
-    - python manage.py runserver
+    > python manage.py runserver
 
 
 ### A. Modify Backend - ```ItemView```
