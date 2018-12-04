@@ -40,7 +40,7 @@ Be sure that you are consistently adding, committing, and pushing your changes t
 
 
 ### A. Modify Backend - ```ItemView```
-Modify the ```get_context_data()``` method in [ItemView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L20) to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations.
+Modify the ```get_context_data()``` method in [ItemView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L20) to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations. Display the ```city``` attribute for each location.
 
 ### B. Modify Backend - ```ItemsResultsRestView```
 The relevant view to edit for this assignment is [ItemsResultsRestView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L55). Your task is to implement the application logic in order to: 
