@@ -20,28 +20,29 @@ Be sure that you are consistently adding, committing, and pushing your changes t
 
     * In your virtual environment install the package (Django, Geopy, etc.) requirements: 
 
-    > pip install -r requirements.txt
+    pip install -r requirements.txt
 
     * Create the necessary db tables for the application: 
 
-    > python manage.py migrate
+    python manage.py migrate
 
     * Create a superuser account: 
 
-    > python manage.py createsuperuser
+    python manage.py createsuperuser
 
     * Prepopulate application with existing data stored in a fixture: 
 
-    > python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
+    python manage.py loaddata shopper_app/fixtures/shopper_app_fixture.json
 
     * Start the Django development server: 
 
-    > python manage.py runserver
+    python manage.py runserver
 
-### A. Modify ```ItemView```
+
+### A. Modify Backend - ```ItemView```
 Modify the ```get_context_data()``` method in [ItemView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L20) to add a list of locations for the item to the context dict. Then modify the ```item.html``` template to display this list of locations.
 
-### B. Modify Backend
+### B. Modify Backend - ```ItemsResultsRestView```
 The relevant view to edit for this assignment is [ItemsResultsRestView](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/shopper_app/views.py#L55). Your task is to implement the application logic in order to: 
 
 a. Retrieve the minimal distance between each item object in the ```item_objects``` list and our default origin (see ```HOME_LOC``` variable in views.py) to produce a **NEW** list of ```ItemLocation``` objects that are of minimal distance to origin. **Use geopy and Nominatum python package for computing distance.**
@@ -104,17 +105,18 @@ d. Properly construct the ```data``` dict to send as response to client.
 If the view properly sends data back to client, then the following modification to the frontend should result in the intended result.
 
 ### C. Modify Frontend 
-* Add the correct url pattern in ```urls.py``` so that ```shop/``` displays the shop.html page. Be sure to give it a 'name'. Use view ```SelectItemsView```
+1. Modify the menu bar in ```base.html``` to add a link to the 'admin' site. The url for admin is ```/admin/```.
+2. Add the correct url pattern in ```urls.py``` so that ```shop/``` displays the shop.html page. Be sure to give it a 'name'. Use view ```SelectItemsView```
 
-* Modify the menu bar in ```base.html``` so that the shop menu option accesses the shop.html page (use pattern you created above).
+3. Modify the menu bar in ```base.html``` so that the shop menu option accesses the shop.html page (use pattern you created above).
 
-* Modify ```shop.html``` by completing the form that lists all the items in the db in a checklist. Each checklist item should use the primary key value for each item. For example, the pk of one of the items has a value of 2. Its checkbox ```value``` would be set as follows. Note that the ```name``` attribute of all checkbox items should be **items**. You can retrieve the pk by inspecting the admin site listing of item objects.
+4. Modify ```shop.html``` by completing the form that lists all the items in the db in a checklist. Each checklist item should use the primary key value for each item. For example, the pk of one of the items has a value of 2. Its checkbox ```value``` would be set as follows. Note that the ```name``` attribute of all checkbox items should be **items**. You can retrieve the pk by inspecting the admin site listing of item objects.
 
 ```html
 <input type="checkbox" name="items" value="3">
 ```
 
-* The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from checklist then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. 
+5. The ```shop.html``` page is already started for you. Interaction unfolds like this: User selects items from checklist then clicks submit. On submit, the page makes an AJAX request to the ```ItemsResultsRestView``` you modified in task B (see javascript in page source). Modify the **response handler** to plot map locations in a map display **and** display the items (name and price) in a list on the page. 
 
 > see [in class mapper exercise](https://github.com/rmedinahu/cs463-final-project-starter/blob/master/examples/mapper-article.html) to review dom manipulation and mapping
 
