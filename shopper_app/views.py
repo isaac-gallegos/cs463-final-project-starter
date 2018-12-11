@@ -7,11 +7,15 @@ from django import forms
 
 # generic views docs: https://docs.djangoproject.com/en/2.1/ref/class-based-views/
 from django.views import generic 
+from geopy import distance
+from geopy import Nominatim
 
 from .models import Item, GeoLoc, ItemLocation
 
 # (e.g., HOME_LOC['latitude'] or HOME_LOC['longitude'])
-HOME_LOC = settings.DEFAULT_LOC 
+HOME_LOC = settings.DEFAULT_LOC
+d = distance.distance
+g = Nominatim(user_agent="shopper_app")
 
 class HomeView(generic.TemplateView):
     template_name = 'home.html'
@@ -24,7 +28,8 @@ class ItemView(generic.DetailView):
     def get_context_data(self, **kwargs):
         context = super(ItemView, self).get_context_data(**kwargs)
         item_obj = self.get_object()
-
+        item_locations = item_obj.locations.all()
+        context['locations'] = item_locations
         return context
 
 
@@ -48,6 +53,11 @@ class SearchForm(forms.Form):
 
 class SelectItemsView(generic.TemplateView):
     template_name = 'shop.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(SelectItemsView, self).get_context_data(**kwargs)
+        context['items'] = Item.objects.all()
+        return context
 
 
 
@@ -86,9 +96,18 @@ class ItemsResultsRestView(generic.View):
         """Handle post requests from client form using AJAX.
         """
         form = SearchForm(request.POST)
-        miles = 0       # total number miles to fetch all items
-        total_cost = 0  # total cost of all items
+        a = (-71.312796, 41.49008)
+        b = (-71.312796, 41.49008)
+        miles = distance.distance(a, b).miles # total number miles to fetch all items. Also initializing variable miles as a geodesic type to perform geodesic logic
+
+        total_cost = 0 # total cost of all items
         
+        #initializing item dictionary's dictionary to properly send as a json response
+        name = []
+        price = 0
+        lat = 0
+        lon = 0
+
         # data dict sent back to client as response 
         data = {'items': [], 'miles': miles, 'cost': total_cost}
         # Note: each item in 'items' list is a dict in itself and should be structured as outlined above.
@@ -103,11 +122,24 @@ class ItemsResultsRestView(generic.View):
         
             #  Begin here to determine optimal item location for each item in item_objects list
 
+            home_coordinates = (HOME_LOC['latitude'], HOME_LOC['longitude'])
+            for i in item_objects:
+                locations = i.locations.all()
+                min_location = (locations[0].location.lat, locations[0].location.lon)
+                min_miles = distance.distance(min_location, home_coordinates)
+                for j in locations:
+                    location = (j.location.lat, j.location.lon)
+                    new_distance = distance.distance(location, home_coordinates).miles
+                    if new_distance < min_miles:
+                        min_miles = new_distance
+                        min_location = j
+                data['items'].append({
+                    'name': min_location.item.name, 
+                    'price': min_location.item.price,
+                    'lat': min_location.location.lat,
+                    'lon': min_location.location.lon})
+                data['miles'] = data['miles'] +new_distance
+                data['cost'] = data['cost'] + min_location.item.price
 
             # End local edits here.
-
         return JsonResponse(data, safe=False)
-        
-
-
-

@@ -17,7 +17,9 @@
 
     	<h5>Available at the following locations</h5>
     	<ul class="list-unstyled">
-    		
+    		{% for i in locations %}
+    			<li>{{ i.location.city }}</li>
+    		{% endfor %}
     	</ul>	
 	</div>
 

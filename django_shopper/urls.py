@@ -24,7 +24,7 @@ urlpatterns = [
     path('items/', ItemListView.as_view(), name='item_list'),
     path('item/<int:pk>/', ItemView.as_view(), name='item'),
     path('item/add/', ItemCreateView.as_view(), name='item_add'),
-    
+    path('shop/', SelectItemsView.as_view(), name='shop'),
     # REST api
     path('shop/rest/', ItemsResultsRestView.as_view(), name='items_rest'),
     
